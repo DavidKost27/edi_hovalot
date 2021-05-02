@@ -1,7 +1,22 @@
 .topbar {
+  background-color: gray;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 60px;
+  z-index: 200;
+  .topbar-container {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: rgb(180, 180, 180);
+  }
 }

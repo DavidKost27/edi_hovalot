@@ -5,10 +5,12 @@ import "./styles.scss";
 
 const Topbar = () => (
   <header className="topbar">
-    <div>
+    <div className="topbar-container">
       <Link to="/" style={{}}>
         לוגו הולך לפה
       </Link>
+
+      <div>דף בית</div>
     </div>
   </header>
 );
